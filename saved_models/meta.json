@@ -1,0 +1,86 @@
+{
+  "variants": {
+    "pca": {
+      "file": "reduced_pca.csv",
+      "n_samples": 19996,
+      "n_features": 19,
+      "attack_pct": 24.5,
+      "class_dist": {
+        "benign": 15097,
+        "dos hulk": 1516,
+        "portscan": 1516,
+        "ddos": 907,
+        "infiltration - portscan": 654,
+        "dos goldeneye": 72,
+        "dos slowloris": 54,
+        "dos slowhttptest": 48,
+        "botnet": 45,
+        "ftp-patator": 38
+      }
+    },
+    "kpca": {
+      "file": "reduced_kpca.csv",
+      "n_samples": 19996,
+      "n_features": 2,
+      "attack_pct": 24.5,
+      "class_dist": {
+        "benign": 15097,
+        "dos hulk": 1516,
+        "portscan": 1516,
+        "ddos": 907,
+        "infiltration - portscan": 654,
+        "dos goldeneye": 72,
+        "dos slowloris": 54,
+        "dos slowhttptest": 48,
+        "botnet": 45,
+        "ftp-patator": 38
+      }
+    },
+    "umap": {
+      "file": "reduced_umap.csv",
+      "n_samples": 19996,
+      "n_features": 2,
+      "attack_pct": 24.5,
+      "class_dist": {
+        "benign": 15097,
+        "dos hulk": 1516,
+        "portscan": 1516,
+        "ddos": 907,
+        "infiltration - portscan": 654,
+        "dos goldeneye": 72,
+        "dos slowloris": 54,
+        "dos slowhttptest": 48,
+        "botnet": 45,
+        "ftp-patator": 38
+      }
+    },
+    "autoencoder": {
+      "file": "reduced_autoencoder.csv",
+      "n_samples": 19996,
+      "n_features": 8,
+      "attack_pct": 24.5,
+      "class_dist": {
+        "benign": 15097,
+        "dos hulk": 1516,
+        "portscan": 1516,
+        "ddos": 907,
+        "infiltration - portscan": 654,
+        "dos goldeneye": 72,
+        "dos slowloris": 54,
+        "dos slowhttptest": 48,
+        "botnet": 45,
+        "ftp-patator": 38
+      }
+    }
+  },
+  "raw": null,
+  "png_map": {
+    "explained_variance": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\01_explained_variance.png",
+    "pca_2d": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\02_pca_2d.png",
+    "kpca_2d": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\02b_kpca_2d.png",
+    "tsne_2d": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\03_tsne_2d.png",
+    "umap_2d": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\04_umap_2d.png",
+    "autoencoder_2d": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\05_autoencoder_2d.png",
+    "correlation_heatmap": "C:\\Users\\rahul\\programs\\Python\\NIDS\\Project\\Feature_reduction\\dim_reduction_results\\06_correlation_heatmap.png"
+  }
+}
