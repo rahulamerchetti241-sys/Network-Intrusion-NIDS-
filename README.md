@@ -4,8 +4,8 @@
 
 **Dataset:** CICIDS2017  
 **Models Trained:** 40 (Supervised, Unsupervised & Hybrid)  
-**Training Date:** 2026-04-23  
-**Author:** RuthGH01
+**Created On:** 2026-04-23  
+**Author:** Ruth Jeso Johnson, Amerchetti Rahul
 
 ---
 
